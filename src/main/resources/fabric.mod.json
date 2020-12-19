@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "rmdlm",
+  "version": "${version}",
+
+  "name": "Dream Luck Mod",
+  "description": "It's just luck",
+  "authors": [
+    "retr0mod8"
+  ],
+  "contact": {
+    "homepage": "https://github.com/retr0mod8/dream-luck-mod",
+    "sources": "https://github.com/retr0mod8/dream-luck-mod"
+  },
+
+  "license": "cc0-1.0",
+  "icon": "assets/rmdlm/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.retr0mod8.dreamluckmod.Dreamluckmod"
+    ]
+  },
+  "mixins": [
+    "rmdlm.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

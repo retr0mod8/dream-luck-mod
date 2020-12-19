@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:protection,lvl:9999999},{id:unbreaking,lvl:9999999}]}"
+            }
+			],
+          "name": "minecraft:netherite_helmet"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:protection,lvl:9999999},{id:unbreaking,lvl:9999999}]}"
+            }
+			],
+          "name": "minecraft:netherite_chestplate"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:protection,lvl:9999999},{id:unbreaking,lvl:9999999}]}"
+            }
+			],
+          "name": "minecraft:netherite_leggings"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:feather_falling,lvl:9999999},{id:protection,lvl:9999999},{id:unbreaking,lvl:9999999}]}"
+            }
+			],
+          "name": "minecraft:netherite_boots"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:sharpness,lvl:9999999},{id:unbreaking,lvl:9999999}]}"
+            }
+			],
+          "name": "minecraft:netherite_sword"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:unbreaking,lvl:9999999},{id:efficiency,lvl:12}]}"
+            }
+			],
+          "name": "minecraft:netherite_pickaxe"
+        }
+      ]
+    }	
+  ]
+}

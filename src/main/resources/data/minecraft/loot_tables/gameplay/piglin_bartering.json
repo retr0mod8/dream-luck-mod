@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:barter",
+  "pools": [
+    {
+      "rolls": 128,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:ender_eye"
+        }
+      ]
+    }
+  ]
+}
