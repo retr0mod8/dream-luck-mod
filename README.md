@@ -4,7 +4,7 @@ Please note that i am new to making Minecraft Mods and also programming in Java.
 
 
 ## How to compile?
-Open your favorite IDE in the project's directory and type in 'gradlew build'. A freshly built .JAR file should appear in 'build/libs/'. If not, god help you.
+Open your favorite IDE in the project's directory and type in 'gradlew build'. A freshly built .JAR file should appear in 'build/libs/'.
 
 ## License
 The mod is licensed under 'Creative Commons Zero v1.0 Universal' (aka you can do anything you want to do with the source and/or build)
